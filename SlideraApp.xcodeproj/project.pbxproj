@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A173527A212153C900EB9775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1735279212153C900EB9775 /* AppDelegate.swift */; };
+		A173527C212153C900EB9775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A173527B212153C900EB9775 /* ViewController.swift */; };
+		A173527F212153CA00EB9775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A173527D212153CA00EB9775 /* Main.storyboard */; };
+		A1735281212153D500EB9775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1735280212153D500EB9775 /* Assets.xcassets */; };
+		A1735284212153D500EB9775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1735282212153D500EB9775 /* LaunchScreen.storyboard */; };
+		A173528F212153D500EB9775 /* SlideraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A173528E212153D500EB9775 /* SlideraAppTests.swift */; };
+		A173529A212153D600EB9775 /* SlideraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1735299212153D600EB9775 /* SlideraAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A173528B212153D500EB9775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A173526E212153C900EB9775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1735275212153C900EB9775;
+			remoteInfo = SlideraApp;
+		};
+		A1735296212153D500EB9775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A173526E212153C900EB9775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1735275212153C900EB9775;
+			remoteInfo = SlideraApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1735276212153C900EB9775 /* SlideraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1735279212153C900EB9775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A173527B212153C900EB9775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A173527E212153CA00EB9775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1735280212153D500EB9775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1735283212153D500EB9775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1735285212153D500EB9775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A173528A212153D500EB9775 /* SlideraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A173528E212153D500EB9775 /* SlideraAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideraAppTests.swift; sourceTree = "<group>"; };
+		A1735290212153D500EB9775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1735295212153D500EB9775 /* SlideraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1735299212153D600EB9775 /* SlideraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideraAppUITests.swift; sourceTree = "<group>"; };
+		A173529B212153D600EB9775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1735273212153C900EB9775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1735287212153D500EB9775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1735292212153D500EB9775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A173526D212153C900EB9775 = {
+			isa = PBXGroup;
+			children = (
+				A1735278212153C900EB9775 /* SlideraApp */,
+				A173528D212153D500EB9775 /* SlideraAppTests */,
+				A1735298212153D500EB9775 /* SlideraAppUITests */,
+				A1735277212153C900EB9775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1735277212153C900EB9775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1735276212153C900EB9775 /* SlideraApp.app */,
+				A173528A212153D500EB9775 /* SlideraAppTests.xctest */,
+				A1735295212153D500EB9775 /* SlideraAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1735278212153C900EB9775 /* SlideraApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1735279212153C900EB9775 /* AppDelegate.swift */,
+				A173527B212153C900EB9775 /* ViewController.swift */,
+				A173527D212153CA00EB9775 /* Main.storyboard */,
+				A1735280212153D500EB9775 /* Assets.xcassets */,
+				A1735282212153D500EB9775 /* LaunchScreen.storyboard */,
+				A1735285212153D500EB9775 /* Info.plist */,
+			);
+			path = SlideraApp;
+			sourceTree = "<group>";
+		};
+		A173528D212153D500EB9775 /* SlideraAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A173528E212153D500EB9775 /* SlideraAppTests.swift */,
+				A1735290212153D500EB9775 /* Info.plist */,
+			);
+			path = SlideraAppTests;
+			sourceTree = "<group>";
+		};
+		A1735298212153D500EB9775 /* SlideraAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1735299212153D600EB9775 /* SlideraAppUITests.swift */,
+				A173529B212153D600EB9775 /* Info.plist */,
+			);
+			path = SlideraAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1735275212153C900EB9775 /* SlideraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A173529E212153D600EB9775 /* Build configuration list for PBXNativeTarget "SlideraApp" */;
+			buildPhases = (
+				A1735272212153C900EB9775 /* Sources */,
+				A1735273212153C900EB9775 /* Frameworks */,
+				A1735274212153C900EB9775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideraApp;
+			productName = SlideraApp;
+			productReference = A1735276212153C900EB9775 /* SlideraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1735289212153D500EB9775 /* SlideraAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17352A1212153D600EB9775 /* Build configuration list for PBXNativeTarget "SlideraAppTests" */;
+			buildPhases = (
+				A1735286212153D500EB9775 /* Sources */,
+				A1735287212153D500EB9775 /* Frameworks */,
+				A1735288212153D500EB9775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A173528C212153D500EB9775 /* PBXTargetDependency */,
+			);
+			name = SlideraAppTests;
+			productName = SlideraAppTests;
+			productReference = A173528A212153D500EB9775 /* SlideraAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1735294212153D500EB9775 /* SlideraAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17352A4212153D600EB9775 /* Build configuration list for PBXNativeTarget "SlideraAppUITests" */;
+			buildPhases = (
+				A1735291212153D500EB9775 /* Sources */,
+				A1735292212153D500EB9775 /* Frameworks */,
+				A1735293212153D500EB9775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1735297212153D500EB9775 /* PBXTargetDependency */,
+			);
+			name = SlideraAppUITests;
+			productName = SlideraAppUITests;
+			productReference = A1735295212153D500EB9775 /* SlideraAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A173526E212153C900EB9775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ramjan sayyad";
+				TargetAttributes = {
+					A1735275212153C900EB9775 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A1735289212153D500EB9775 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A1735275212153C900EB9775;
+					};
+					A1735294212153D500EB9775 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A1735275212153C900EB9775;
+					};
+				};
+			};
+			buildConfigurationList = A1735271212153C900EB9775 /* Build configuration list for PBXProject "SlideraApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A173526D212153C900EB9775;
+			productRefGroup = A1735277212153C900EB9775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1735275212153C900EB9775 /* SlideraApp */,
+				A1735289212153D500EB9775 /* SlideraAppTests */,
+				A1735294212153D500EB9775 /* SlideraAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1735274212153C900EB9775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1735284212153D500EB9775 /* LaunchScreen.storyboard in Resources */,
+				A1735281212153D500EB9775 /* Assets.xcassets in Resources */,
+				A173527F212153CA00EB9775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1735288212153D500EB9775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1735293212153D500EB9775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1735272212153C900EB9775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173527C212153C900EB9775 /* ViewController.swift in Sources */,
+				A173527A212153C900EB9775 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1735286212153D500EB9775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173528F212153D500EB9775 /* SlideraAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1735291212153D500EB9775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173529A212153D600EB9775 /* SlideraAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A173528C212153D500EB9775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1735275212153C900EB9775 /* SlideraApp */;
+			targetProxy = A173528B212153D500EB9775 /* PBXContainerItemProxy */;
+		};
+		A1735297212153D500EB9775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1735275212153C900EB9775 /* SlideraApp */;
+			targetProxy = A1735296212153D500EB9775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A173527D212153CA00EB9775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A173527E212153CA00EB9775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1735282212153D500EB9775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1735283212153D500EB9775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A173529C212153D600EB9775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A173529D212153D600EB9775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A173529F212153D600EB9775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tribhi.SlideraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17352A0212153D600EB9775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tribhi.SlideraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A17352A2212153D600EB9775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideraAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tribhi.SlideraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideraApp.app/SlideraApp";
+			};
+			name = Debug;
+		};
+		A17352A3212153D600EB9775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideraAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tribhi.SlideraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideraApp.app/SlideraApp";
+			};
+			name = Release;
+		};
+		A17352A5212153D600EB9775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideraAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tribhi.SlideraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideraApp;
+			};
+			name = Debug;
+		};
+		A17352A6212153D600EB9775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideraAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tribhi.SlideraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideraApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1735271212153C900EB9775 /* Build configuration list for PBXProject "SlideraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A173529C212153D600EB9775 /* Debug */,
+				A173529D212153D600EB9775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A173529E212153D600EB9775 /* Build configuration list for PBXNativeTarget "SlideraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A173529F212153D600EB9775 /* Debug */,
+				A17352A0212153D600EB9775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17352A1212153D600EB9775 /* Build configuration list for PBXNativeTarget "SlideraAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17352A2212153D600EB9775 /* Debug */,
+				A17352A3212153D600EB9775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17352A4212153D600EB9775 /* Build configuration list for PBXNativeTarget "SlideraAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17352A5212153D600EB9775 /* Debug */,
+				A17352A6212153D600EB9775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A173526E212153C900EB9775 /* Project object */;
+}
